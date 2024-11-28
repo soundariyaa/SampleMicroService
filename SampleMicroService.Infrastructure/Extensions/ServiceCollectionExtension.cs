@@ -31,5 +31,7 @@ namespace SampleMicroService.Infrastructure.Extensions
 
         private static IServiceCollection AddDatabaseRepository(this IServiceCollection services) => services
        .AddSingleton<IProductRepository, ProductRepository>();
+
+        
     }
 }

@@ -13,5 +13,5 @@ public static class Constants
     public static string MongoDbConnectionString = "mongodb://host.docker.internal:27017";
     public static string MongoDbDatabaseName = "Product";
     }
-  
+   
 }
